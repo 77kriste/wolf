@@ -1,0 +1,99 @@
+
+
+main{
+  font-family: 'Roboto Slab', serif;
+}
+
+header ul{
+  float: right;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 10px;
+}
+
+header ul li a{
+color: #663212;
+text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header ul li {
+    display: block;
+  }
+}
+
+.context{
+  background-color: #f3f1f2;
+}
+
+.page-title{
+  color: #663212;
+  border-bottom: solid 2px #663212;
+  text-align: center;
+}
+
+.page-title span{
+  color: black;
+}
+
+.produktai{
+  background-color: white;
+  padding: 10px;
+  border: solid 2px #676b6d;
+}
+
+.produktai p{
+  color: black;
+  line-height: 1.53;
+}
+
+.product-title{
+  border-bottom: solid 1px #663212;
+  padding-bottom: 10px;
+  color: #663212;
+}
+
+.tekstas ul{
+  text-align: center;
+}
+
+.tekstas ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.tekstas ul li a{
+  font-size: 60px;
+  color: black;
+  margin: 15px;
+}
+
+video{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footer{
+  background-color: #663212;
+  color: white;
+  text-align: center;
+}
+
+.footer ul{
+  text-align: center;
+}
+
+.footer ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+.footer ul li a{
+  color: white;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+
